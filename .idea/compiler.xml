@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-qf-service" />
+        <module name="shop-qf-web" />
+        <module name="shop-qf-basic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop-qf-api" target="1.5" />
+      <module name="shop-qf-basic" target="1.5" />
+      <module name="shop-qf-cart" target="1.5" />
+      <module name="shop-qf-cart-api" target="1.5" />
+      <module name="shop-qf-commom" target="1.8" />
+      <module name="shop-qf-common" target="1.8" />
+      <module name="shop-qf-serve" target="1.5" />
+      <module name="shop-qf-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-qf-cart-api" options="" />
+      <module name="shop-qf-commom" options="-parameters" />
+      <module name="shop-qf-common" options="-parameters" />
+      <module name="shop-qf-product-api" options="-parameters" />
+      <module name="shop-qf-product-type-api" options="-parameters" />
+    </option>
+  </component>
+</project>
