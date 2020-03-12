@@ -11,16 +11,8 @@
     <modules>
         <module>shop-qf-api</module>
         <module>shop-qf-basic</module>
-        <module>shop-qf-serve</module>
         <module>shop-qf-web</module>
-        <module>shop-qf-basic</module>
-        <module>shop-qf-server</module>
-        <module>shop-basic</module>
         <module>shop-qf-service</module>
-        <module>shop-qf-basic</module>
-        <module>shop-qf-api</module>
-        <module>shop-qf-api</module>
-        <module>shop-qf-cart</module>
     </modules>
 
 
